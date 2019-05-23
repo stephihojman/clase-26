@@ -1,0 +1,23 @@
+.card {
+  width: 200px;
+  height: 200px;
+  background-image: url(https://www.hillspet.es/content/dam/cp-sites/hills/hills-pet/en_us/exported/cat-care/routine-care/images/M5T9649ashx.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.overlay {
+  background-image: linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 0, 255, 0.3));
+  height: 100%;
+  color: beige;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.5s;
+  transform: translateY(200px);
+}
+.card:hover .overlay {
+  transform: translateY(0px);
+}
